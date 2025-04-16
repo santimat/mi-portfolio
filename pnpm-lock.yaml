@@ -9,10 +9,10 @@ importers:
   .:
     dependencies:
       astro:
-        specifier: ^5.6.2
+        specifier: 5.6.2
         version: 5.6.2(rollup@4.40.0)(typescript@5.8.3)
       ninja-keys:
-        specifier: ^1.2.2
+        specifier: 1.2.2
         version: 1.2.2
 
 packages:

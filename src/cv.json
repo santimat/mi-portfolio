@@ -234,6 +234,13 @@
             "description": "Landing page para un emprendimiento de parrilleros",
             "highlights": ["API Whatsapp", "Responsive"],
             "url": "https://asados-alpunto.vercel.app/"
+        },
+        {
+            "name": "La regional",
+            "isActive": false,
+            "description": "Listado de productos mayoristas",
+            "highlights": ["Responsive", "Filters", "Lazy loading"],
+            "url": "https://laregional.vercel.app/"
         }
     ]
 }
