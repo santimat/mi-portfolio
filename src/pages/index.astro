@@ -7,14 +7,19 @@ import Layout from "@/layouts/Layout.astro";
 import Projects from "@/components/sections/Projects.astro";
 import Skills from "@/components/sections/Skills.astro";
 import KeyBoardManager from "@/components/KeyBoardManager.astro";
+
+import { basics } from "@/cv.json";
+import Certificates from "@/components/sections/Certificates.astro";
+const { name, label } = basics;
 ---
 
-<Layout title="Minimal Portfolio">
+<Layout title={`Portfolio de ${name} - ${label}`}>
     <main>
         <Hero />
         <About />
         <!-- <Experience /> -->
-        <!-- <Education /> -->
+        <Education />
+        <Certificates />
         <Projects />
         <Skills />
     </main>

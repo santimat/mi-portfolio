@@ -1,0 +1,71 @@
+---
+import { certificates } from "@/cv.json";
+import Section from "@/components/Section.astro";
+---
+
+<Section title="Certificados">
+    <ul>
+        {
+            certificates.map((certificate) => {
+                const { name, date, issuer, url, tags } = certificate;
+
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <a
+                                    href={url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    title={`Ir al certificado de ${name}`}
+                                >
+                                    <h3>
+                                        {name} - {issuer}
+                                    </h3>
+                                </a>
+                                {date}
+                            </header>
+                            <footer>
+                                {tags.map((tag) => (
+                                    <p>&bull;{tag}</p>
+                                ))}
+                            </footer>
+                        </article>
+                    </li>
+                );
+            })
+        }
+    </ul>
+</Section>
+
+<style>
+    ul,
+    footer {
+        display: grid;
+        /* De esta forma tenemos un grid responsive */
+        grid-template-columns: repeat(
+            /* Se adapta al tamaño del dispositivo */ auto-fit,
+            /* Cada columna como minimo ocupa 200 px */ minmax(200px, 1fr)
+        );
+        gap: 1rem;
+    }
+    article {
+        border-radius: 6px;
+        border: 1px solid #f2f2f2;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        height: 100%;
+    }
+
+    article a:hover {
+        text-decoration: underline;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4px;
+    }
+</style>

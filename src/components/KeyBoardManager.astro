@@ -53,13 +53,14 @@ const profilesInfo = profiles.map(({ network, url }) => {
 });
 ---
 
-<footer>
+<footer class="no-print">
     <!-- Kbd se usa para pintar el teclado -->
     Pulsa <kbd>Ctrl</kbd> + <kbd>K</kbd>
 </footer>
 
 <!-- Parseamos el array de objetos a un string para poder obtenerlo y parsearlo luego a un objeto en JS -->
 <ninja-keys
+    class="no-print"
     data-info={JSON.stringify(profilesInfo)}
     placeholder="Buscar comando"></ninja-keys>
 
@@ -101,8 +102,17 @@ const profilesInfo = profiles.map(({ network, url }) => {
 
 <style>
     @media print {
-        ninja-keys {
+        .no-print {
             display: none !important;
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
         }
     }
 
@@ -113,8 +123,18 @@ const profilesInfo = profiles.map(({ network, url }) => {
         bottom: 0;
         width: 100%;
         padding-block: 12px;
-        text-align: center;
         font-size: 0.85rem;
+        text-align: center;
+
+        /* Creamos el timeline */
+        view-timeline: --revealing;
+        /* asignamos el eje del timeline */
+        view-timeline-axis: block;
+        /* animamos */
+        animation: linear 0.3s fadeIn;
+        /* asignamos el timeline */
+        animation-timeline: --revealing;
+        animation-range: entry 100% cover 10%;
     }
 
     kbd {
