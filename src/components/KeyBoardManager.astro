@@ -53,9 +53,29 @@ const profilesInfo = profiles.map(({ network, url }) => {
 });
 ---
 
-<footer class="no-print">
+<footer class="no-print no-mobile">
     <!-- Kbd se usa para pintar el teclado -->
     Pulsa <kbd>Ctrl</kbd> + <kbd>K</kbd>
+</footer>
+
+<footer class="mobile no-print">
+    <button>
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-command my-6 size-6"
+            ><path
+                d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3"
+            ></path></svg
+        >
+    </button>
 </footer>
 
 <!-- Parseamos el array de objetos a un string para poder obtenerlo y parsearlo luego a un objeto en JS -->
@@ -97,6 +117,13 @@ const profilesInfo = profiles.map(({ network, url }) => {
             },
             ...data, // <- extendemos la data que creamos arriba
         ];
+
+        const buttonMobile = document.querySelector(".mobile button");
+        if (buttonMobile != null) {
+            buttonMobile.addEventListener("click", () => {
+                ninja.open();
+            });
+        }
     }
 </script>
 
@@ -115,31 +142,45 @@ const profilesInfo = profiles.map(({ network, url }) => {
             opacity: 1;
         }
     }
-
-    footer {
-        background: #fdfdfd;
-        border-top: 1px solid #eee;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        padding-block: 12px;
-        font-size: 0.85rem;
-        text-align: center;
-
-        /* Creamos el timeline */
-        view-timeline: --revealing;
-        /* asignamos el eje del timeline */
-        view-timeline-axis: block;
-        /* animamos */
-        animation: linear 0.3s fadeIn;
-        /* asignamos el timeline */
-        animation-timeline: --revealing;
-        animation-range: entry 100% cover 10%;
+    .no-mobile {
+        display: none;
     }
+    .mobile button {
+        background: #fdfdfd;
+        border: 0.5px solid #eee;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+    @media (min-width: 768px) {
+        footer {
+            background: #fdfdfd;
+            border-top: 1px solid #eee;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding-block: 12px;
+            font-size: 0.85rem;
+            text-align: center;
 
-    kbd {
-        background: #eee;
-        border-radius: 4px;
-        padding: 2px 4px;
+            /* Creamos el timeline */
+            view-timeline: --revealing;
+            /* asignamos el eje del timeline */
+            view-timeline-axis: block;
+            /* animamos */
+            animation: linear 0.3s fadeIn;
+            /* asignamos el timeline */
+            animation-timeline: --revealing;
+            animation-range: entry 100% cover 10%;
+        }
+
+        kbd {
+            background: #eee;
+            border-radius: 4px;
+            padding: 2px 4px;
+        }
     }
 </style>

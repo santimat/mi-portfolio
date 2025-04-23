@@ -27,7 +27,10 @@ import Section from "@/components/Section.astro";
                             </header>
                             <footer>
                                 {tags.map((tag) => (
-                                    <p>&bull;{tag}</p>
+                                    <p>
+                                        <span>&bull;</span>
+                                        {tag}
+                                    </p>
                                 ))}
                             </footer>
                         </article>
@@ -47,7 +50,7 @@ import Section from "@/components/Section.astro";
             /* Se adapta al tamaño del dispositivo */ auto-fit,
             /* Cada columna como minimo ocupa 200 px */ minmax(200px, 1fr)
         );
-        gap: 1rem;
+        gap: 0.5rem;
     }
     article {
         border-radius: 6px;
@@ -65,7 +68,7 @@ import Section from "@/components/Section.astro";
     header {
         display: flex;
         justify-content: space-between;
-        align-items: center;
         margin-bottom: 4px;
+        gap: 5px;
     }
 </style>

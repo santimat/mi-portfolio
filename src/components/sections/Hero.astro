@@ -96,9 +96,7 @@ const social_icons: Record<string, any> = {
     .container {
         display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: space-between;
-        gap: 1rem;
     }
     .info {
         display: flex;
@@ -118,7 +116,7 @@ const social_icons: Record<string, any> = {
     img {
         aspect-ratio: 1/1;
         object-fit: cover;
-        width: 128px;
+        width: clamp(85px, 15vw, 128px);
         border-radius: 6px;
     }
     span {

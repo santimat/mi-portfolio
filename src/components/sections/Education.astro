@@ -8,15 +8,16 @@ import { education } from "@/cv.json";
         {
             education.map(({ institution, startDate, endDate, courses }) => {
                 const startYear = new Date(startDate).getFullYear();
-                const endYear = endDate;
-                const years = `${startYear} - ${endYear || "En progreso"}`;
                 const cuatrimestre = 1;
                 return (
                     <li>
                         <article>
                             <header>
                                 <h3>{institution}</h3>
-                                <time>{years}</time>
+                                <time>
+                                    {startYear}-
+                                    <span>{endDate || "En progreso"}</span>
+                                </time>
                             </header>
                             <footer>
                                 {courses[cuatrimestre].map((course) => (
@@ -54,6 +55,8 @@ import { education } from "@/cv.json";
         time {
             font-size: 0.85rem;
             color: #555;
+            display: flex;
+            flex-wrap: wrap;
         }
     </style>
 </Section>
