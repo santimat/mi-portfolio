@@ -156,7 +156,8 @@ const profilesInfo = profiles.map(({ network, url }) => {
         right: 10px;
     }
     @media (min-width: 768px) {
-        footer {
+        .no-mobile {
+            display: block;
             background: #fdfdfd;
             border-top: 1px solid #eee;
             position: fixed;
@@ -181,6 +182,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
             background: #eee;
             border-radius: 4px;
             padding: 2px 4px;
+        }
+        .mobile {
+            display: none;
         }
     }
 </style>
