@@ -1,7 +1,7 @@
 {
     "basics": {
         "name": "Santino Blas Maturo",
-        "label": "Jr Web Developer",
+        "label": "Web Developer",
         "image": "/img/me.webp",
         "email": "santinomaturo1@gmail.com",
         "phone": "+54 9 2346509733",
@@ -36,23 +36,12 @@
     "work": [
         {
             "name": "santimat",
-            "position": "Divulgador sobre Programación Web",
-            "url": "https://twitch.tv/midudev",
-            "startDate": "2021-01-01",
+            "position": "",
+            "url": "",
+            "startDate": "",
             "endDate": null,
-            "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+            "summary": "",
             "highlights": ["Started the company"]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "url": "https://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description…",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
         }
     ],
     "education": [
@@ -110,6 +99,23 @@
                 "Automatizacion de tareas con Gulp.js"
             ],
             "url": "https://www.udemy.com/certificate/UC-2b6a7d69-7ae4-4479-9de1-637259af145e/"
+        },
+        {
+            "name": "Desarrollo de Temas y Plugins de WordPress",
+            "date": "2025",
+            "issuer": "Udemy",
+            "tags": [
+                "Creacion de sitios dinamicos",
+                "Incorporacion de Advanced Custom Fields",
+                "Menús dinamicos conectados a panel de WordPress",
+                "Custom Post para un mejor orden",
+                "Creación y activación de plugins",
+                "Despliegue a producción",
+                "Introduccion a PHP",
+                "Creacion de proyectos de practica",
+                "Paginación con WordPress"
+            ],
+            "url": "https://www.udemy.com/certificate/UC-5b1b7c3b-8e2c-4eaf-9ff5-a6ee4601e01f/"
         }
     ],
     "publications": [
@@ -215,6 +221,10 @@
                 "Fullstack",
                 "Autenticacion"
             ]
+        },
+        {
+            "name": "Python con flask",
+            "keywords": ["Desarrollo Software", "Backend", "Fullstack"]
         }
     ],
     "languages": [
@@ -228,13 +238,6 @@
         }
     ],
     "projects": [
-        {
-            "name": "Al punto asados",
-            "isActive": true,
-            "description": "Landing page para un emprendimiento de parrilleros",
-            "highlights": ["API Whatsapp", "Responsive"],
-            "url": "https://asados-alpunto.vercel.app/"
-        },
         {
             "name": "La regional",
             "isActive": false,
