@@ -245,6 +245,10 @@
             "keywords": ["Desarrollo Software", "Backend", "Fullstack"]
         },
         {
+            "name": "Java",
+            "keywords": ["Desarrollo Software", "Backend", "Fullstack","Enterprise"]
+        },
+        {
             "name": "JWT",
             "keywords": [
                 "Desarrollo Web",
