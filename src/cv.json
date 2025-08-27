@@ -116,6 +116,27 @@
                 "Paginación con WordPress"
             ],
             "url": "https://www.udemy.com/certificate/UC-5b1b7c3b-8e2c-4eaf-9ff5-a6ee4601e01f/"
+        },
+        {
+            "name": "Fullstack con JavaScript",
+            "date": "2025",
+            "issuer": "Udemy",
+            "tags": [
+                "Creacion de sitios dinamicos",
+                "Consumir API's",
+                "Async / Await",
+                "Modulos",
+                "Conceptos Basicos y avanzados",
+                "Backend con Express",
+                "React JS",
+                "Proyecto real Aplicando Express con MVC (Model View Controller), MongoDB y React JS",
+                "API REST",
+                "Conceptos Basicos de TypeScript",
+                "Testing",
+                "Patrones de diseño",
+                "Uso de LLM's"
+            ],
+            "url": "https://www.udemy.com/certificate/UC-add9b0bd-5c04-4336-ba49-8555638e561b/"
         }
     ],
     "publications": [
@@ -159,6 +180,16 @@
             ]
         },
         {
+            "name": "React JS",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "Backend",
+                "JavaScript Superset",
+                "Frameork"
+            ]
+        },
+        {
             "name": "Node",
             "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
         },
@@ -190,7 +221,7 @@
         },
         {
             "name": "Astro",
-            "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+            "keywords": ["Desarrollo Web", "Frontend"]
         },
         {
             "name": "MongoDB",
@@ -237,13 +268,5 @@
             "fluency": "Mid-level"
         }
     ],
-    "projects": [
-        {
-            "name": "La regional",
-            "isActive": false,
-            "description": "Listado de productos mayoristas",
-            "highlights": ["Responsive", "Filters", "Lazy loading"],
-            "url": "https://laregional.vercel.app/"
-        }
-    ]
+    "projects": []
 }
