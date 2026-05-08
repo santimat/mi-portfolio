@@ -1,276 +1,303 @@
 {
-    "basics": {
-        "name": "Santino Blas Maturo",
-        "label": "Web Developer",
-        "image": "/img/me.webp",
-        "email": "santinomaturo1@gmail.com",
-        "phone": "+54 9 2346509733",
-        "url": "https://santimaturo.dev",
-        "summary": "Estudiante de UTN en Tecnico Universatorio en Programacion, con experiencia en el desarrollo de aplicaciones web y moviles. En busca de mi primer trabajo en el sector IT.",
-        "location": {
-            "address": "",
-            "postalCode": "6620",
-            "city": "Chiviloy",
-            "province": "Buenos Aires",
-            "countryCode": "AR",
-            "region": "Argentina"
-        },
-        "profiles": [
-            {
-                "network": "X",
-                "username": "_santinomaturo",
-                "url": "https://x.com/_santinomaturo"
-            },
-            {
-                "network": "GitHub",
-                "username": "santimat",
-                "url": "https://github.com/santimat"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "santinomaturo8",
-                "url": "https://www.linkedin.com/in/santinomaturo8/"
-            }
-        ]
+  "basics": {
+    "name": "Santino Blas Maturo",
+    "label": "Full Stack Developer · Orientado al Backend y la Lógica",
+    "image": "/img/me.webp",
+    "email": "santinomaturo1@gmail.com",
+    "phone": "+54 9 2346509733",
+    "url": "https://santimaturo.dev",
+    "summary": "Desarrollador web Full Stack con fuerte orientación al backend y la lógica de negocio. Experiencia construyendo REST APIs con Express.js y Spring Boot, manejo de bases de datos SQL, autenticación con JWT y desarrollo frontend con React y TypeScript. Estudiante de Tecnicatura Universitaria en Programación (UTN San Nicolás) y Licenciatura en Sistemas de Información (UNLU). Busco mi primera experiencia profesional en el sector IT donde pueda aportar y seguir creciendo.",
+    "location": {
+      "address": "",
+      "postalCode": "6620",
+      "city": "Chivilcoy",
+      "province": "Buenos Aires",
+      "countryCode": "AR",
+      "region": "Argentina"
     },
-    "work": [
-        {
-            "name": "santimat",
-            "position": "",
-            "url": "",
-            "startDate": "",
-            "endDate": null,
-            "summary": "",
-            "highlights": ["Started the company"]
-        }
-    ],
-    "education": [
-        {
-            "institution": "Universidad Tecnologica Nacional",
-            "url": "https://www.utn.edu.ar/es/",
-            "area": "Tecnico Universitario en Programacion",
-            "studyType": "Nivel superior",
-            "startDate": "2025-03-17",
-            "endDate": "",
-            "state": "Primer año",
-            "courses": [
-                [
-                    "Programacion 1",
-                    "Matematicas",
-                    "Arquitectura y Sistemas Operativos",
-                    "Organizacion Empresarial"
-                ],
-                [
-                    "Programacion 2",
-                    "Probabilidad y Estadistica",
-                    "Base de datos",
-                    "Ingles 1"
-                ],
-                [
-                    "Programacion 3",
-                    "Base de datos 2",
-                    "Metodologia de Sistemas",
-                    "Ingles 2"
-                ],
-                [
-                    "Programacion 4",
-                    "Metodologia de Sistemas 2",
-                    "Introduccion al analisis de datos",
-                    "Legislacion",
-                    "Gestion de desarrollo de software"
-                ]
-            ]
-        }
-    ],
-    "certificates": [
-        {
-            "name": "Desarrollo Web Completo",
-            "date": "2025",
-            "issuer": "Udemy",
-            "tags": [
-                "Login y seguridad",
-                "Modelar bases de datos",
-                "Creacion de Active Record",
-                "Recibir pagos",
-                "Galerias",
-                "Validaciones",
-                "Programacion orientada a objetos",
-                "Manipulacion del DOM",
-                "Automatizacion de tareas con Gulp.js"
-            ],
-            "url": "https://www.udemy.com/certificate/UC-2b6a7d69-7ae4-4479-9de1-637259af145e/"
-        },
-        {
-            "name": "Desarrollo de Temas y Plugins de WordPress",
-            "date": "2025",
-            "issuer": "Udemy",
-            "tags": [
-                "Creacion de sitios dinamicos",
-                "Incorporacion de Advanced Custom Fields",
-                "Menús dinamicos conectados a panel de WordPress",
-                "Custom Post para un mejor orden",
-                "Creación y activación de plugins",
-                "Despliegue a producción",
-                "Introduccion a PHP",
-                "Creacion de proyectos de practica",
-                "Paginación con WordPress"
-            ],
-            "url": "https://www.udemy.com/certificate/UC-5b1b7c3b-8e2c-4eaf-9ff5-a6ee4601e01f/"
-        },
-        {
-            "name": "Fullstack con JavaScript",
-            "date": "2025",
-            "issuer": "Udemy",
-            "tags": [
-                "Creacion de sitios dinamicos",
-                "Consumir API's",
-                "Async / Await",
-                "Modulos",
-                "Conceptos Basicos y avanzados",
-                "Backend con Express",
-                "React JS",
-                "Proyecto real Aplicando Express con MVC (Model View Controller), MongoDB y React JS",
-                "API REST",
-                "Conceptos Basicos de TypeScript",
-                "Testing",
-                "Patrones de diseño",
-                "Uso de LLM's"
-            ],
-            "url": "https://www.udemy.com/certificate/UC-add9b0bd-5c04-4336-ba49-8555638e561b/"
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "url": "https://publication.com",
-            "summary": "Description…"
-        }
-    ],
-    "skills": [
-        {
-            "name": "HTML",
-            "keywords": ["Desarrollo Web", "Frontend"]
-        },
-        {
-            "name": "CSS",
-            "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
-        },
-        {
-            "name": "JavaScript",
-            "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
-        },
-        {
-            "name": "Tailwind",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "CSS Framework",
-                "Diseño Responsive"
-            ]
-        },
-        {
-            "name": "TypeScript",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "Backend",
-                "JavaScript Superset"
-            ]
-        },
-        {
-            "name": "React JS",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "Backend",
-                "JavaScript Superset",
-                "Frameork"
-            ]
-        },
-        {
-            "name": "Node",
-            "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
-        },
-        {
-            "name": "MySQL",
-            "keywords": [
-                "Bases de Datos",
-                "SQL",
-                "Almacenamiento de Datos",
-                "Backend"
-            ]
-        },
-        {
-            "name": "Git",
-            "keywords": [
-                "Control de Versiones",
-                "Colaboración",
-                "Código Fuente"
-            ]
-        },
-        {
-            "name": "GitHub",
-            "keywords": [
-                "Control de Versiones",
-                "Colaboración",
-                "Código Fuente",
-                "Git"
-            ]
-        },
-        {
-            "name": "Astro",
-            "keywords": ["Desarrollo Web", "Frontend"]
-        },
-        {
-            "name": "MongoDB",
-            "keywords": [
-                "Bases de Datos",
-                "NoSQL",
-                "Almacenamiento de Datos",
-                "Backend"
-            ]
-        },
-        {
-            "name": "MVC",
-            "keywords": ["Desarrollo Web", "Backend", "Fullstack"]
-        },
-        {
-            "name": "PHP",
-            "keywords": ["Desarrollo Web", "Backend", "Fullstack"]
-        },
-        {
-            "name": "C",
-            "keywords": ["Desarrollo Software", "Backend", "Fullstack"]
-        },
-        {
-            "name": "Java",
-            "keywords": ["Desarrollo Software", "Backend", "Fullstack","Enterprise"]
-        },
-        {
-            "name": "JWT",
-            "keywords": [
-                "Desarrollo Web",
-                "Backend",
-                "Fullstack",
-                "Autenticacion"
-            ]
-        },
-        {
-            "name": "Python con flask",
-            "keywords": ["Desarrollo Software", "Backend", "Fullstack"]
-        }
-    ],
-    "languages": [
-        {
-            "language": "Spanish",
-            "fluency": "Native speaker"
-        },
-        {
-            "language": "English",
-            "fluency": "Mid-level"
-        }
-    ],
-    "projects": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "santinomaturo8",
+        "url": "https://www.linkedin.com/in/santinomaturo8/"
+      },
+      {
+        "network": "GitHub",
+        "username": "santimat",
+        "url": "https://github.com/santimat"
+      },
+      {
+        "network": "X",
+        "username": "_santinomaturo",
+        "url": "https://x.com/_santinomaturo"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Proyectos Personales & Freelance",
+      "position": "Full Stack Developer",
+      "url": "https://github.com/santimat",
+      "startDate": "2024-01-01",
+      "endDate": null,
+      "summary": "Desarrollo de proyectos propios aplicando arquitecturas reales: REST APIs con Express.js y Spring Boot, frontend con React y TypeScript, bases de datos SQL, autenticación JWT y patrón MVC. Construcción de soluciones end-to-end con foco en la lógica del servidor y la arquitectura del backend.",
+      "highlights": [
+        "REST APIs con Express.js y Spring Boot",
+        "Arquitectura MVC y en capas (Controllers, Services, Repository, DTOs)",
+        "Autenticación con JSON Web Tokens",
+        "Frontend con React, TypeScript y Tailwind CSS",
+        "Bases de datos SQL y NoSQL"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Tecnológica Nacional — FR San Nicolás",
+      "url": "https://www.frn.utn.edu.ar/",
+      "area": "Tecnicatura Universitaria en Programación",
+      "studyType": "Nivel Superior Universitario",
+      "startDate": "2025-03-17",
+      "endDate": null,
+      "state": "En curso — 1° año",
+      "courses": [
+        [
+          "Programación 1",
+          "Matemáticas",
+          "Arquitectura y Sistemas Operativos",
+          "Organización Empresarial"
+        ],
+        [
+          "Programación 2",
+          "Probabilidad y Estadística",
+          "Base de Datos",
+          "Inglés 1"
+        ],
+        [
+          "Programación 3",
+          "Base de Datos 2",
+          "Metodología de Sistemas",
+          "Inglés 2"
+        ],
+        [
+          "Programación 4",
+          "Metodología de Sistemas 2",
+          "Introducción al Análisis de Datos",
+          "Legislación",
+          "Gestión de Desarrollo de Software"
+        ]
+      ]
+    },
+    {
+      "institution": "Universidad Nacional de Luján",
+      "url": "https://www.unlu.edu.ar/",
+      "area": "Licenciatura en Sistemas de Información",
+      "studyType": "Grado Universitario",
+      "startDate": "2025-01-01",
+      "endDate": null,
+      "state": "En curso",
+      "courses": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Fullstack con JavaScript",
+      "date": "2025",
+      "issuer": "Udemy",
+      "tags": [
+        "Express.js",
+        "React JS",
+        "API REST",
+        "TypeScript",
+        "MVC con MongoDB",
+        "Async / Await",
+        "Patrones de diseño",
+        "Testing",
+        "Uso de LLMs"
+      ],
+      "url": "https://www.udemy.com/certificate/UC-add9b0bd-5c04-4336-ba49-8555638e561b/"
+    },
+    {
+      "name": "Desarrollo Web Completo",
+      "date": "2025",
+      "issuer": "Udemy",
+      "tags": [
+        "HTML & CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "POO",
+        "Manipulación del DOM",
+        "Seguridad & Login",
+        "Modelado de Bases de Datos",
+        "Gulp.js"
+      ],
+      "url": "https://www.udemy.com/certificate/UC-2b6a7d69-7ae4-4479-9de1-637259af145e/"
+    },
+    {
+      "name": "Desarrollo de Temas y Plugins de WordPress",
+      "date": "2025",
+      "issuer": "Udemy",
+      "tags": [
+        "PHP",
+        "WordPress",
+        "Custom Post Types",
+        "Advanced Custom Fields",
+        "Plugins",
+        "Despliegue a producción"
+      ],
+      "url": "https://www.udemy.com/certificate/UC-5b1b7c3b-8e2c-4eaf-9ff5-a6ee4601e01f/"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "TypeScript",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "React JS",
+      "keywords": ["Desarrollo Web", "Frontend", "Framework", "SPA"]
+    },
+    {
+      "name": "Node",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "Express.js",
+      "keywords": ["Backend", "REST API", "Node.js", "MVC"]
+    },
+    {
+      "name": "Java",
+      "keywords": ["Backend", "Spring Boot", "REST API", "Enterprise"]
+    },
+    {
+      "name": "Python con Flask",
+      "keywords": ["Backend", "Scripting", "API"]
+    },
+    {
+      "name": "PHP",
+      "keywords": ["Desarrollo Web", "Backend", "WordPress"]
+    },
+    {
+      "name": "C",
+      "keywords": ["Desarrollo Software", "Sistemas", "Bajo nivel"]
+    },
+    {
+      "name": "MySQL",
+      "keywords": ["Bases de Datos", "SQL", "Backend"]
+    },
+    {
+      "name": "MongoDB",
+      "keywords": ["Bases de Datos", "NoSQL", "Backend"]
+    },
+    {
+      "name": "HTML",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "Tailwind",
+      "keywords": ["Desarrollo Web", "Frontend", "CSS Framework"]
+    },
+    {
+      "name": "JWT",
+      "keywords": ["Backend", "Autenticación", "Seguridad"]
+    },
+    {
+      "name": "MVC",
+      "keywords": ["Arquitectura", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Git",
+      "keywords": ["Control de Versiones", "Colaboración"]
+    },
+    {
+      "name": "GitHub",
+      "keywords": ["Control de Versiones", "Colaboración", "Git"]
+    },
+    {
+      "name": "Astro",
+      "keywords": ["Desarrollo Web", "Frontend", "SSG"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Intermedio (lectura técnica fluida)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "PDF Reader con React",
+      "url": "https://github.com/santimat/pdf-reader",
+      "description": "Aplicación web con sincronización de pagina vía sessión id por URL para visualizar archivos PDF desarrollada con React y Supabase serverless. Utiliza la librería pdf.js de mozilla para renderizar documentos, con una interfaz intuitiva y responsive.",
+      "highlights": ["React", "pdf.js", "Supabase", "Serverless", "Responsive"],
+      "isActive": true
+    },
+    {
+      "name": "Nagare web",
+      "url": "https://github.com/santimat/nagare-web",
+      "description": "Emprendiendo de desarrollo y diseño web, junto a Julieta Alonso. Desarrollado en Astro con TypeScript, Tailwind CSS y despliegue en Vercel. Ofrecemos servicios de creación de sitios web personalizados, optimizados para SEO y adaptados a las necesidades de cada cliente.",
+      "highlights": [
+        "Astro",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vercel",
+        "Desarrollo Web",
+        "Diseño Web"
+      ],
+      "isActive": true
+    },
+    {
+      "name": "Portfolio Personal",
+      "url": "https://santimaturo.dev",
+      "description": "Portfolio web desarrollado con Astro, optimizado para impresión y para compartir en LinkedIn. Datos centralizados en JSON siguiendo el estándar JSON Resume.",
+      "highlights": ["Astro", "TypeScript", "CSS", "JSON Resume", "Responsive"],
+      "isActive": true
+    },
+    {
+      "name": "REST API con Express.js",
+      "url": "https://github.com/santimat",
+      "description": "API RESTful construida con Node.js y Express.js aplicando arquitectura MVC, autenticación con JWT y base de datos SQL. Endpoints organizados por recursos con manejo de errores centralizado.",
+      "highlights": [
+        "Node.js",
+        "Express.js",
+        "JWT",
+        "MySQL",
+        "MVC",
+        "REST API"
+      ],
+      "isActive": false
+    },
+    {
+      "name": "REST API con Spring Boot",
+      "url": "https://github.com/santimat",
+      "description": "API en Java con Spring Boot siguiendo arquitectura en capas: Controllers, Services, Repository, Entities, DTOs y Models. Integración con base de datos relacional.",
+      "highlights": [
+        "Java",
+        "Spring Boot",
+        "REST API",
+        "Arquitectura en capas",
+        "JPA",
+        "MySQL"
+      ],
+      "isActive": false
+    }
+  ],
+  "publications": []
 }
