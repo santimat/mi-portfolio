@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Santino Blas Maturo",
-    "label": "Full Stack Developer · Orientado al Backend y la Lógica",
+    "label": "Full Stack Developer · Backend and Logic Oriented",
     "image": "/img/me.webp",
     "email": "santinomaturo1@gmail.com",
     "phone": "+54 9 2346509733",
     "url": "https://santimaturo.dev",
-    "summary": "Desarrollador web Full Stack con fuerte orientación al backend y la lógica de negocio. Experiencia construyendo REST APIs con Express.js y Spring Boot, manejo de bases de datos SQL, autenticación con JWT y desarrollo frontend con React y TypeScript. Estudiante de Tecnicatura Universitaria en Programación (UTN San Nicolás) y Licenciatura en Sistemas de Información (UNLU). Busco mi primera experiencia profesional en el sector IT donde pueda aportar y seguir creciendo.",
+    "summary": "Full Stack web developer strongly oriented to the backend and business logic. Experience building REST APIs with Express.js and Spring Boot, SQL database management, JWT authentication, and frontend development with React and TypeScript. Student of University Technical Programming (UTN San Nicolás) and Information Systems Bachelor's Degree (UNLU). I am seeking my first professional experience in the IT field where I can contribute and continue to grow.",
     "location": {
       "address": "",
       "postalCode": "6620",
@@ -35,89 +35,89 @@
   },
   "work": [
     {
-      "name": "Proyectos Personales & Freelance",
+      "name": "Personal Projects & Freelance",
       "position": "Full Stack Developer",
       "url": "https://github.com/santimat",
       "startDate": "2024-01-01",
       "endDate": null,
-      "summary": "Desarrollo de proyectos propios aplicando arquitecturas reales: REST APIs con Express.js y Spring Boot, frontend con React y TypeScript, bases de datos SQL, autenticación JWT y patrón MVC. Construcción de soluciones end-to-end con foco en la lógica del servidor y la arquitectura del backend.",
+      "summary": "Development of own projects applying real architectures: REST APIs with Express.js and Spring Boot, frontend with React and TypeScript, SQL databases, JWT authentication, and MVC pattern. End-to-end solution construction focusing on server logic and backend architecture.",
       "highlights": [
-        "REST APIs con Express.js y Spring Boot",
-        "Arquitectura MVC y en capas (Controllers, Services, Repository, DTOs)",
-        "Autenticación con JSON Web Tokens",
-        "Frontend con React, TypeScript y Tailwind CSS",
-        "Bases de datos SQL y NoSQL"
+        "REST APIs with Express.js and Spring Boot",
+        "MVC and layered architecture (Controllers, Services, Repository, DTOs)",
+        "Authentication with JSON Web Tokens",
+        "Frontend with React, TypeScript, and Tailwind CSS",
+        "SQL and NoSQL databases"
       ]
     }
   ],
   "education": [
     {
-      "institution": "Universidad Tecnológica Nacional — FR San Nicolás",
+      "institution": "National Technological University — FR San Nicolás",
       "url": "https://www.frn.utn.edu.ar/",
-      "area": "Tecnicatura Universitaria en Programación",
-      "studyType": "Nivel Superior Universitario",
+      "area": "University Technical Programming",
+      "studyType": "Higher University Level",
       "startDate": "2025-03-17",
       "endDate": null,
-      "state": "En curso — 1° año",
+      "state": "In progress — 1st year",
       "courses": [
         [
-          "Programación 1",
-          "Matemáticas",
-          "Arquitectura y Sistemas Operativos",
-          "Organización Empresarial"
+          "Programming 1",
+          "Mathematics",
+          "Architecture and Operating Systems",
+          "Business Organization"
         ],
         [
-          "Programación 2",
-          "Probabilidad y Estadística",
-          "Base de Datos",
-          "Inglés 1"
+          "Programming 2",
+          "Probability and Statistics",
+          "Databases",
+          "English 1"
         ],
         [
-          "Programación 3",
-          "Base de Datos 2",
-          "Metodología de Sistemas",
-          "Inglés 2"
+          "Programming 3",
+          "Databases 2",
+          "Systems Methodology",
+          "English 2"
         ],
         [
-          "Programación 4",
-          "Metodología de Sistemas 2",
-          "Introducción al Análisis de Datos",
-          "Legislación",
-          "Gestión de Desarrollo de Software"
+          "Programming 4",
+          "Systems Methodology 2",
+          "Introduction to Data Analysis",
+          "Legislation",
+          "Software Development Management"
         ]
       ]
     },
     {
-      "institution": "Universidad Nacional de Luján",
+      "institution": "National University of Luján",
       "url": "https://www.unlu.edu.ar/",
-      "area": "Licenciatura en Sistemas de Información",
-      "studyType": "Grado Universitario",
+      "area": "Bachelor's Degree in Information Systems",
+      "studyType": "University Degree",
       "startDate": "2025-01-01",
       "endDate": null,
-      "state": "En curso",
+      "state": "In progress",
       "courses": []
     }
   ],
   "certificates": [
     {
-      "name": "Fullstack con JavaScript",
+      "name": "Fullstack with JavaScript",
       "date": "2025",
       "issuer": "Udemy",
       "tags": [
         "Express.js",
         "React JS",
-        "API REST",
+        "REST API",
         "TypeScript",
-        "MVC con MongoDB",
+        "MVC with MongoDB",
         "Async / Await",
-        "Patrones de diseño",
+        "Design patterns",
         "Testing",
-        "Uso de LLMs"
+        "Using LLMs"
       ],
       "url": "https://www.udemy.com/certificate/UC-add9b0bd-5c04-4336-ba49-8555638e561b/"
     },
     {
-      "name": "Desarrollo Web Completo",
+      "name": "Complete Web Development",
       "date": "2025",
       "issuer": "Udemy",
       "tags": [
@@ -125,16 +125,16 @@
         "JavaScript",
         "PHP",
         "MySQL",
-        "POO",
-        "Manipulación del DOM",
-        "Seguridad & Login",
-        "Modelado de Bases de Datos",
+        "OOP",
+        "DOM Manipulation",
+        "Security & Login",
+        "Database Modeling",
         "Gulp.js"
       ],
       "url": "https://www.udemy.com/certificate/UC-2b6a7d69-7ae4-4479-9de1-637259af145e/"
     },
     {
-      "name": "Desarrollo de Temas y Plugins de WordPress",
+      "name": "WordPress Theme and Plugin Development",
       "date": "2025",
       "issuer": "Udemy",
       "tags": [
@@ -143,7 +143,7 @@
         "Custom Post Types",
         "Advanced Custom Fields",
         "Plugins",
-        "Despliegue a producción"
+        "Deployment to Production"
       ],
       "url": "https://www.udemy.com/certificate/UC-5b1b7c3b-8e2c-4eaf-9ff5-a6ee4601e01f/"
     }
@@ -151,12 +151,12 @@
   "skills": [
     {
       "name": "JavaScript",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
     },
     {
       "name": "TypeScript",
       "keywords": [
-        "Desarrollo Web",
+        "Web Development",
         "Frontend",
         "Backend",
         "JavaScript Superset"
@@ -164,11 +164,11 @@
     },
     {
       "name": "React JS",
-      "keywords": ["Desarrollo Web", "Frontend", "Framework", "SPA"]
+      "keywords": ["Web Development", "Frontend", "Framework", "SPA"]
     },
     {
       "name": "Node",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
     },
     {
       "name": "Express.js",
@@ -179,101 +179,101 @@
       "keywords": ["Backend", "Spring Boot", "REST API", "Enterprise"]
     },
     {
-      "name": "Python con Flask",
+      "name": "Python with Flask",
       "keywords": ["Backend", "Scripting", "API"]
     },
     {
       "name": "PHP",
-      "keywords": ["Desarrollo Web", "Backend", "WordPress"]
+      "keywords": ["Web Development", "Backend", "WordPress"]
     },
     {
       "name": "C",
-      "keywords": ["Desarrollo Software", "Sistemas", "Bajo nivel"]
+      "keywords": ["Software Development", "Systems", "Low-level"]
     },
     {
       "name": "MySQL",
-      "keywords": ["Bases de Datos", "SQL", "Backend"]
+      "keywords": ["Databases", "SQL", "Backend"]
     },
     {
       "name": "MongoDB",
-      "keywords": ["Bases de Datos", "NoSQL", "Backend"]
+      "keywords": ["Databases", "NoSQL", "Backend"]
     },
     {
       "name": "HTML",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "keywords": ["Web Development", "Frontend"]
     },
     {
       "name": "CSS",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "keywords": ["Web Development", "Frontend", "Responsive Design"]
     },
     {
       "name": "Tailwind",
-      "keywords": ["Desarrollo Web", "Frontend", "CSS Framework"]
+      "keywords": ["Web Development", "Frontend", "CSS Framework"]
     },
     {
       "name": "JWT",
-      "keywords": ["Backend", "Autenticación", "Seguridad"]
+      "keywords": ["Backend", "Authentication", "Security"]
     },
     {
       "name": "MVC",
-      "keywords": ["Arquitectura", "Backend", "Fullstack"]
+      "keywords": ["Architecture", "Backend", "Fullstack"]
     },
     {
       "name": "Git",
-      "keywords": ["Control de Versiones", "Colaboración"]
+      "keywords": ["Version Control", "Collaboration"]
     },
     {
       "name": "GitHub",
-      "keywords": ["Control de Versiones", "Colaboración", "Git"]
+      "keywords": ["Version Control", "Collaboration", "Git"]
     },
     {
       "name": "Astro",
-      "keywords": ["Desarrollo Web", "Frontend", "SSG"]
+      "keywords": ["Web Development", "Frontend", "SSG"]
     }
   ],
   "languages": [
     {
-      "language": "Español",
-      "fluency": "Nativo"
+      "language": "Spanish",
+      "fluency": "Native"
     },
     {
-      "language": "Inglés",
-      "fluency": "Intermedio (lectura técnica fluida)"
+      "language": "English",
+      "fluency": "Intermediate (fluent technical reading)"
     }
   ],
   "projects": [
     {
-      "name": "PDF Reader con React",
+      "name": "PDF Reader with React",
       "url": "https://github.com/santimat/pdf-reader",
-      "description": "Aplicación web con sincronización de pagina vía sessión id por URL para visualizar archivos PDF desarrollada con React y Supabase serverless. Utiliza la librería pdf.js de mozilla para renderizar documentos, con una interfaz intuitiva y responsive.",
+      "description": "Web application with page synchronization via session ID by URL for viewing PDF files, developed with React and Supabase serverless. Uses Mozilla's pdf.js library to render documents, with an intuitive and responsive interface.",
       "highlights": ["React", "pdf.js", "Supabase", "Serverless", "Responsive"],
       "isActive": true
     },
     {
       "name": "Nagare web",
       "url": "https://github.com/santimat/nagare-web",
-      "description": "Emprendiendo de desarrollo y diseño web, junto a Julieta Alonso. Desarrollado en Astro con TypeScript, Tailwind CSS y despliegue en Vercel. Ofrecemos servicios de creación de sitios web personalizados, optimizados para SEO y adaptados a las necesidades de cada cliente.",
+      "description": "Web development and design startup with Julieta Alonso. Built in Astro with TypeScript, Tailwind CSS, and deployed on Vercel. We offer customized website creation services optimized for SEO and adapted to each client's needs.",
       "highlights": [
         "Astro",
         "TypeScript",
         "Tailwind CSS",
         "Vercel",
-        "Desarrollo Web",
-        "Diseño Web"
+        "Web Development",
+        "Web Design"
       ],
       "isActive": true
     },
     {
-      "name": "Portfolio Personal",
+      "name": "Personal Portfolio",
       "url": "https://santimaturo.dev",
-      "description": "Portfolio web desarrollado con Astro, optimizado para impresión y para compartir en LinkedIn. Datos centralizados en JSON siguiendo el estándar JSON Resume.",
+      "description": "Web portfolio developed with Astro, optimized for printing and sharing on LinkedIn. Data centralized in JSON following the JSON Resume standard.",
       "highlights": ["Astro", "TypeScript", "CSS", "JSON Resume", "Responsive"],
       "isActive": true
     },
     {
-      "name": "REST API con Express.js",
+      "name": "REST API with Express.js",
       "url": "https://github.com/santimat",
-      "description": "API RESTful construida con Node.js y Express.js aplicando arquitectura MVC, autenticación con JWT y base de datos SQL. Endpoints organizados por recursos con manejo de errores centralizado.",
+      "description": "RESTful API built with Node.js and Express.js applying MVC architecture, JWT authentication, and SQL database. Endpoints organized by resources with centralized error handling.",
       "highlights": [
         "Node.js",
         "Express.js",
@@ -285,14 +285,14 @@
       "isActive": false
     },
     {
-      "name": "REST API con Spring Boot",
+      "name": "REST API with Spring Boot",
       "url": "https://github.com/santimat",
-      "description": "API en Java con Spring Boot siguiendo arquitectura en capas: Controllers, Services, Repository, Entities, DTOs y Models. Integración con base de datos relacional.",
+      "description": "Java API with Spring Boot following a layered architecture: Controllers, Services, Repository, Entities, DTOs, and Models. Integration with a relational database.",
       "highlights": [
         "Java",
         "Spring Boot",
         "REST API",
-        "Arquitectura en capas",
+        "Layered Architecture",
         "JPA",
         "MySQL"
       ],
