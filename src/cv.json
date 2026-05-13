@@ -72,12 +72,7 @@
           "Databases",
           "English 1"
         ],
-        [
-          "Programming 3",
-          "Databases 2",
-          "Systems Methodology",
-          "English 2"
-        ],
+        ["Programming 3", "Databases 2", "Systems Methodology", "English 2"],
         [
           "Programming 4",
           "Systems Methodology 2",
@@ -265,7 +260,7 @@
     },
     {
       "name": "Personal Portfolio",
-      "url": "https://santimaturo.dev",
+      "url": "https://github.com/santimat/mi-portfolio.git",
       "description": "Web portfolio developed with Astro, optimized for printing and sharing on LinkedIn. Data centralized in JSON following the JSON Resume standard.",
       "highlights": ["Astro", "TypeScript", "CSS", "JSON Resume", "Responsive"],
       "isActive": true
