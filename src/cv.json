@@ -224,6 +224,10 @@
 		{
 			"name": "Astro",
 			"keywords": ["Web Development", "Frontend", "SSG"]
+		},
+		{
+			"name": "Spring boot",
+			"keywords": ["Backend", "Java", "REST API"]
 		}
 	],
 	"languages": [
@@ -292,6 +296,20 @@
 				"MySQL"
 			],
 			"isActive": false
+		},
+		{
+			"name": "Stock and Sales Management System",
+			"description": "Web application for managing stock and sales, developed in React.js with backend in Spring Boot Java and MySQL. Features include product management, sales tracking, and reporting.",
+			"url": "https://github.com/santimat/gestiON-backend.git",
+			"highlights": [
+				"React.js",
+				"Spring Boot",
+				"MySQL",
+				"REST API",
+				"Stock Management",
+				"Sales Tracking"
+			],
+			"isActive": true
 		}
 	],
 	"publications": []
